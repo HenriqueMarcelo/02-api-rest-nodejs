@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint src --ext .ts --fix",
+    "knex": "node --loader tsx ./node_modules/.bin/knex",
     "dev": "tsx watch src/server.ts"
   },
   "keywords": [],
